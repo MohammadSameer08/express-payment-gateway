@@ -7,14 +7,11 @@ A robust Express.js backend server for a Learning Management System (LMS) with i
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Running the Server](#running-the-server)
-- [API Documentation](#api-documentation)
+- [Quick Start](#quick-start)
+- [Documentation](#documentation)
+- [API Endpoints](#api-endpoints)
 - [Security Features](#security-features)
-- [Database Documentation](#database-documentation)
-- [Middleware](#middleware)
-- [Error Handling](#error-handling)
+- [Environment Configuration](#environment-configuration)
 - [Development](#development)
 - [Troubleshooting](#troubleshooting)
 - [License](#license)
@@ -300,6 +297,60 @@ When an unknown route is requested:
     "error": "Route not found"
 }
 ```
+
+## 📖 Documentation
+
+Complete documentation is available in the `docs/` folder:
+
+### 📋 [API Documentation](./docs/API_DOCUMENTATION.md)
+- Complete API reference
+- All endpoints with examples
+- Request/response formats
+- cURL and Postman examples
+- Error codes and troubleshooting
+
+### 🔐 [Authentication Guide](./docs/AUTHENTICATION.md)
+- JWT authentication flow
+- Password hashing and verification
+- Protected routes
+- Token management
+- Security best practices
+- Common auth issues and solutions
+
+### 💳 [Payment Gateway Setup](./docs/PAYMENT_GATEWAY.md)
+- Razorpay integration guide
+- Payment flow explanation
+- Creating orders and verifying payments
+- Frontend integration examples (Vanilla JS and React)
+- Testing with test credentials
+- Production deployment checklist
+
+### 🚀 [Setup & Installation Guide](./docs/SETUP_GUIDE.md)
+- Step-by-step installation instructions
+- Environment configuration
+- Troubleshooting common issues
+- Docker setup (optional)
+- Database initialization
+- First run checklist
+
+### 🗄️ [Database Schema Documentation](./docs/DATABASE_SCHEMA.md)
+- Complete MongoDB schema design
+- Collection definitions
+- Field types and validation
+- Database relationships
+- Query examples
+- Performance tips
+- Backup and recovery procedures
+
+### Quick Links
+
+| Document | Purpose |
+|----------|---------|
+| [API_DOCUMENTATION.md](./docs/API_DOCUMENTATION.md) | API endpoints and usage |
+| [AUTHENTICATION.md](./docs/AUTHENTICATION.md) | Auth setup and security |
+| [PAYMENT_GATEWAY.md](./docs/PAYMENT_GATEWAY.md) | Razorpay integration |
+| [SETUP_GUIDE.md](./docs/SETUP_GUIDE.md) | Installation and setup |
+| [DATABASE_SCHEMA.md](./docs/DATABASE_SCHEMA.md) | Database structure |
 
 ## 🔒 Security Features
 
