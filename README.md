@@ -691,39 +691,8 @@ Cross-Origin Request Blocked
 - Rate limiting
 - CORS configuration
 
-### TODO 🔄
-- User authentication system
-- Payment processing endpoints
-- Course management APIs
-- Student enrollment system
-- Payment history tracking
-- Admin dashboard endpoints
-- API documentation (Swagger/OpenAPI)
-- Unit tests
-- Integration tests
-- Deployment configuration
-
-## 📞 Support & Contribution
-
-### Issues
-
-If you encounter issues:
-1. Check the [Troubleshooting](#troubleshooting) section
-2. Review logs in terminal
-3. Check MongoDB connection
-4. Verify `.env` configuration
-
-### Contributing
-
-To contribute:
-1. Create feature branch: `git checkout -b feature/your-feature`
-2. Make changes and commit: `git commit -am 'Add feature'`
-3. Push to branch: `git push origin feature/your-feature`
-4. Create pull request
 
 ## 📄 License
-
-ISC License - See LICENSE file for details
 
 Author: Md Sameer
 
