@@ -69,8 +69,10 @@ app.use((err, req, res, next) => {
 // API routes
 import healthRoutes from "./routes/health.routes.js";
 import userRoutes from "./routes/user.routes.js";
+import razorpayRoutes from "./routes/razorpay.routes.js";
 app.use("/api/health", healthRoutes);
 app.use("/api/v1/user", userRoutes);
+app.use("/api/v1/payment", razorpayRoutes);
 
 // it should be the last middleware in the stack, after all other routes and middleware have been defined. It will catch any requests that don't match any of the defined routes and return a 404 error response.
 // 404 error handler middleware
